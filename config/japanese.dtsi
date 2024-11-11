@@ -1,0 +1,149 @@
+/* 
+ * Japanese layout behaviors for ZMK
+ * Copyright (c) 2024 The ZMK Contributors
+ * SPDX-License-Identifier: MIT
+ */
+
+jp_n1: japanese_number_1 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_NUMBER_1";
+    #binding-cells = <0>;
+    bindings = <&kp N1>, <&kp EXCL>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_n2: japanese_number_2 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_NUMBER_2";
+    #binding-cells = <0>;
+    bindings = <&kp N2>, <&kp AT>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_n3: japanese_number_3 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_NUMBER_3";
+    #binding-cells = <0>;
+    bindings = <&kp N3>, <&kp HASH>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_n4: japanese_number_4 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_NUMBER_4";
+    #binding-cells = <0>;
+    bindings = <&kp N4>, <&kp DLLR>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_n5: japanese_number_5 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_NUMBER_5";
+    #binding-cells = <0>;
+    bindings = <&kp N5>, <&kp PRCNT>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_n6: japanese_number_6 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_NUMBER_6";
+    #binding-cells = <0>;
+    bindings = <&kp N6>, <&kp AMPS>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_n7: japanese_number_7 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_NUMBER_7";
+    #binding-cells = <0>;
+    bindings = <&kp N7>, <&kp APOS>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_n8: japanese_number_8 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_NUMBER_8";
+    #binding-cells = <0>;
+    bindings = <&kp N8>, <&kp LPAR>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_n9: japanese_number_9 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_NUMBER_9";
+    #binding-cells = <0>;
+    bindings = <&kp N9>, <&kp RPAR>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_n0: japanese_number_0 {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_NUMBER_0";
+    #binding-cells = <0>;
+    bindings = <&kp N0>, <&none>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_minus: japanese_minus {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_MINUS";
+    #binding-cells = <0>;
+    bindings = <&kp MINUS>, <&kp EQUAL>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_caret: japanese_caret {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_CARET";
+    #binding-cells = <0>;
+    bindings = <&kp CARET>, <&kp TILDE>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+/*
+jp_yen: japanese_yen {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_YEN";
+    #binding-cells = <0>;
+    bindings = <&kp YEN>, <&kp PIPE>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+*/
+jp_at: japanese_at {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_AT";
+    #binding-cells = <0>;
+    bindings = <&kp AT>, <&kp GRAVE>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_lbkt: japanese_left_bracket {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_LEFT_BRACKET";
+    #binding-cells = <0>;
+    bindings = <&kp LBKT>, <&kp LBRC>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_rbkt: japanese_right_bracket {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_RIGHT_BRACKET";
+    #binding-cells = <0>;
+    bindings = <&kp RBKT>, <&kp RBRC>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_semi: japanese_semicolon {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_SEMICOLON";
+    #binding-cells = <0>;
+    bindings = <&kp SEMI>, <&kp PLUS>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+jp_colon: japanese_colon {
+    compatible = "zmk,behavior-mod-morph";
+    label = "JAPANESE_COLON";
+    #binding-cells = <0>;
+    bindings = <&kp COLON>, <&kp ASTRK>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
